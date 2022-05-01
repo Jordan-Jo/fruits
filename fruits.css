@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    }
+   body{
+       background-image: url('pict/back.jpg');
+       background-size: cover;
+     }
+    .fruits .fruits-item{
+        width:250px;
+    } 
+    
+    img{
+           width:100%; 
+           border-radius: 10px 10px 0 0;
+           padding:4px;
+         }
+    img:hover{
+        opacity:0.7;
+        transform:scaleX(-1);
+        cursor:pointer;
+    }
+    a {text-decoration: none;}
+
+    .fruits  .fruits-item{
+        border:1px solid rgb(74,200,74);
+        border-radius: 10px;
+        text-align: center;
+        background:rgb(74,200,74);
+        color:white;
+    }     
+   
+    .fruits {
+        list-style:none;
+        display:flex;
+        gap:35px;
+        justify-content: center;
+    }
+   
+    .container, .fruits{ border-radius:20px;}
+   
+    .fruits-item h2{
+        color:white;
+        font-size:1.5em;
+    }
+    .fruits-item h2:hover{
+        color:yellow;
+    }
+
+    .container{
+        background:cornsilk;
+        border:8px solid rgb(74,200,74);
+        width:45%;
+        margin:30px auto;
+        display:flex;
+        gap:30px;
+        flex-direction: column;
+    }
+   
+    #title{ 
+        text-align: center;
+        color:green;
+        text-shadow:5px 5px 5px gray;
+        font-size:5em;
+        margin-bottom:15px;
+    }
+    
+    span{font-size:2em;}
+
+    h2{
+        color:green;
+        text-align:center;
+        font-size:2.5em;
+    }
+    
+    p{
+        margin:20px auto;
+        width:70%;
+        font-size:1.6em;
+        color:green; 
+        text-align:center;
+    }
+   
+    
